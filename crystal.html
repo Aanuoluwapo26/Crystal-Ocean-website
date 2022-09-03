@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<title>Crystal</title>
+</head>
+
+<style type="text/css">
+	
+/*<div class="opacity-100">...</div>
+<div class="opacity-75">...</div>
+<div class="opacity-50">...</div>
+<div class="opacity-25">...</div>
+*/
+
+.cards{
+	background-image: url(cryst.JPEG);
+	background-repeat: no-repeat;
+	background-size: fill;
+	background-color: rgba(128, 0, 128, 0);
+	background-blend-mode: lighten;
+
+}
+
+.card{
+	background-color: purple;
+	color: white;
+}
+
+.portfolio:hover{
+	border-bottom: thick solid purple;
+	transition-delay: 20ms;
+	border-radius: 6px;
+	color: purple;
+}
+.portfolio{
+	color: purple;
+}
+.port{
+	color: purple;
+
+}
+.cardy:hover{
+	border: thick solid purple;
+	transition-delay: 300ms;
+	border-radius: 2px;
+	box-shadow: tomato;
+}
+.cardd:hover{
+	border: thick solid purple;
+	transition-delay: 300ms;
+	border-radius: 2px;
+	box-shadow: tomato;
+}
+
+
+
+
+    ul a:hover{
+        transition-delay: 300ms;
+        border-bottom: thick solid black;
+        border-radius: 5px;
+    }
+    .our-partner,
+    .partner{
+    	text-align: center;
+    	color: purple;
+
+    }
+
+    .container:hover{
+	border: thin solid purple;
+	transition-delay: 300ms;
+	border-radius: 2px;
+	/*box-shadow: tomato;*/
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.img-contain{
+	background-image: url(crystal.JPEG);
+	background-repeat: no-repeat;
+	background-size: fill;
+	background-blend-mode: lighten;
+	background-color: rgba(248, 249, 250, .5);
+	background-position: center;
+
+}
+.foot{
+	background-color: purple;
+}
+.subscribe{
+	color: purple;
+}
+
+</style>
+	
+
+<body>
+<nav class="navbar navbar-expand-lg p-5 d-flex" style="background-color: purple">
+  <div class="container-fluid">
+  	<img src="Crystal_option.PNG" class="img-fluid" style="width: 170px; height: 75px" alt="logo">
+    <a class="navbar-brand text-warning" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					      <ul class="navbar-nav m-auto">
+					          <a class="nav-link active text-white h3" aria-current="page" href="#services"><strong>About</strong></a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link text-white " href="#" ><strong>Services</strong></a>
+					        </li>
+					         <li class="nav-item">
+					          <a class="nav-link text-white h3" href="#Portfolio"><strong>Portfolio</strong></a>
+					        </li>
+					         
+					         <li class="nav-item">
+					          <a class="nav-link text-white" href="#Hire"><strong>Hire</strong></a>
+					        </li>
+
+					         <li class="nav-item">
+					          <a class="nav-link text-white text-outline-primary" href="#Training"><strong>Training</strong></a>
+					        </li>
+
+					         <li class="nav-item">
+					          <a class="nav-link text-white btn-outline-white" href="#Blog"><strong>Blog</strong></a>
+					        </li>
+
+					         <li class="nav-item">
+					          <a class="nav-link text-white" href="#Contact"><strong>Contact</strong></a>
+					        </li>
+					      <form class="d-flex" role="search">
+					        <button class="btn btn-outline-danger text-white mx-5 " type="submit">Start a Project</button>
+					      </form>
+    </div>
+  </div>
+</nav>
+
+<div class=" we col-md-6 col-12 col-lg-4 w-100" style="background-color: purple;
+		width: 200px;
+		height: 480px;">
+	<p class="card-title text-white mt-1 mx-5">We care about your product as much as you do</p>
+	
+	<p class="h1 card-title text-white mt-3 mx-5" style="font-size: 10vw">We're a Creative Digital Agency</p>
+		
+	<p class="card-body text-white h6 mt-1 mx-5">we work to create experiences and product to launch or expand digital footprints for enterpreneur and start-up with award winning web and mobile applications</p>
+		<form class="d-flex" role="search">
+		 <button class="btn btn-outline-white text-danger mx-5 " type="submit">Get started!</button>
+		</form></div>
+	
+<div class=" head col-md-6 col-12 col-lg-4  p-5 w-100 bg-warning" style="font-family: tahoma; background-color: purple;">
+		<center><p class="h1 text-white" style="height: 200px">We enjoy building razzle ’n dazzle products showcasing what sets you apart from the rest.</p></center>
+	</div>
+
+<div class="row bg-light">
+	<div class="col-md-4 col-12 col-lg-5 cardd mx-3 mt-5">
+		
+		<div class="card-body">
+					<p class="card-title">About us</p>
+					<p class="h3 mt-3" style="color: purple">We are a Cutting Edge Digital Agency.</p>
+
+					<p class="card-text mt-5" style="font-size: 20px">We can help you achieve your business transformation with easy and quick onboarding, the latest high-tech solutions, thanks to our company culture, of everyday learning, and continuous improvement gained from each project. We listen and take time to understand your brief, help you identify your core business value, and present this with a workflow identifying customer journey and delivering a captivating user experience.</p>
+
+		</div>
+	</div>
+<div class="col-md-4 card_ col-12 col-lg-5 mt-5">
+		<img src="services1.PNG"  class="card-img-top" alt="" >
+	</div>
+
+</div>
+
+<div class=" head col-md-6 col-12 col-lg-4  p-5 w-100" style="font-family: tahoma; background-color: purple;">
+					<p class="card-title text-white">Our Service</p>
+					<p class="h3 mt-3" style="color: purple;">Creative treat with our Magic</p>
+
+		<center><p class="h5 text-white">We are able to help you with easy and quick onboarding, latest high-tech solutions, thanks to our company culture, which is built on everyday learning and continuous improvement gained from each project. We listen and take time to understand your brief, help you identify your core business value and presents this with a solid workflow identifying customer journey and delivering captivating user experience.
+
+</p></center>
+</div><br>
+
+
+<div class="row">		
+
+	<div class="col-md-2 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="cryst.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Social Medial Marketing and Management<hr></p>
+				<p class="card-text h6">Our social media marketing and management servicesbis positiones to help increase profit and followers with relevant people.<hr></p>
+		</div>
+	</div>
+
+	<div class="col-md-2 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="crystal-DM.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px" alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Website and mobile development<hr></p>
+				<p class="card-text h6">New product and services are the lifeline of nt company, without them, the firm withers on the vine and either dies or is absorbed by another firm.<hr></p>
+				<p class="card-text h6">Our team have built a portfolio of iOS, Andriod and cross platform apps solutions, we deliver projects using a hybrid of agile and SDLC, frameworks from concepts validation, requirement analysis, design UI/UX, build test and deploy..<hr></p>
+		</div>
+	</div>
+<div class="col-md-2 col-12 col-lg-3 mx-5 card mt-5 ">
+				<img src="crystal.JPEG" class="card-img img-fluid" style="width:400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h1">Tech & BA Resoursing<hr></p>
+				<p class="card-text h6">Looking to hire the best talent? we've got you! we have a pipleine of skilled and exoerienced analyst, PMO'S and develpoer. Reach out toda to find out how we can support your recruitment needs<hr></p>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="row">		
+
+	<div class="col-md-4 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="cryst.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Email Marketing<hr></p>
+				<p class="card-text h6">We can take a start-up business with nothing to a fully functioning brand online and offline, or we can revamp an existing brand, or take a successful brand to the next level, whether that be a log design, full brand-guidlines, artwork fcreating for advertising and digital marketing, or packaging design- we can do it. our creative services will replicate and strenghtened your company values<hr></p>
+		</div>
+	</div>
+
+	<div class="col-md-4 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="crystal-DM.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px" alt="...">
+					<div class="card-body">
+						<p class="card-title h2">Sales funnel<hr></p>
+							<p class="card-text h6">We offer business analysis and strategy training for individuals and cooprate organizations. we also offer their analysis skills to support your project, by helping organization to identify their strenghts and weaknessess, we help you decide where your efforts and resources are best spent...<hr></p>
+					</div>
+	</div>
+<div class="col-md-4 col-12 col-lg-3 mx-5 card mt-5 ">
+				<img src="hh.PNG" class="card-img img-fluid" style="width: 400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Consultancy<hr></p>
+				<p class="card-text h6">An onlinestore with all the tools you need to build, manage, and grow your business. Receive payments online, automatic inventory management & more . instagram support, international payments.<hr></p>
+		</div>
+	</div>
+
+</div>
+<div class="row">		
+
+	<div class="col-md-4 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="cryst.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Branding<hr></p>
+				<p class="card-text h6">We can take a start-up business with nothing to a fully functioning brand online and offline, or we can revamp an existing brand, or take a successful brand to the next level, whether that be a log design, full brand-guidlines, artwork fcreating for advertising and digital marketing, or packaging design- we can do it. our creative services will replicate and strenghtened your company values<hr></p>
+		</div>
+	</div>
+
+	<div class="col-md-4 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="crystal-DM.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px" alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Business Analysis as a service<hr></p>
+				<p class="card-text h6">We offer business analysis and strategy training for individuals and cooprate organizations. we also offer their analysis skills to support your project, by helping organization to identify their strenghts and weaknessess, we help you decide where your efforts and resources are best spent...<hr></p>
+		</div>
+	</div>
+<div class="col-md-4 col-12 col-lg-3 mx-5 card mt-5 ">
+				<img src="hh.PNG" class="card-img img-fluid" style="width: 400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h2">eCommerce platform<hr></p>
+				<p class="card-text h6">An onlinestore with all the tools you need to build, manage, and grow your business. Receive payments online, automatic inventory management & more . instagram support, international payments.<hr></p>
+		</div>
+	</div>
+
+</div>
+
+    </header>
+						    <center><p class="portfolio h2"> portfolio</p></center>
+						    	<center><p class="port h1"> Featured products</p></center>
+
+						    <nav class="navbar navbar-expand-lg p-5 d-flex bg-light">
+						  <div class="container-fluid">
+						  	<a class="navbar-brand text-warning" href="#"></a>
+						    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						      <span class="navbar-toggler-icon"></span>
+						    </button>
+						    <div class="collapse navbar-collapse link" id="navbarSupportedContent">
+
+
+					      <ul class="navbar-nav m-auto">
+					          <a class="nav-link active text-outline-primary  mx- 4 h3" aria-current="page" href="#services"><strong>All</strong></a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link active text-outline-primary mx- 4  h3 " href="#" ><strong>Branding</strong></a>
+					        </li>
+					         <li class="nav-item">
+					          <a class="nav-link  active text-outline-primary mx- 4  h3" href="#Portfolio"><strong>Mobile App</strong></a>
+					        </li>
+					         
+					         <li class="nav-item">
+					          <a class="nav-link active text-outline-primary mx- 4 " href="#Hire"><strong>Web development</strong></a>
+					        </li>
+
+					         <li class="nav-item">
+					          <a class="nav-link active text-outline-primary mx- 4 " href="#Training"><strong>Website</strong></a>
+					        </li>
+
+					         <li class="nav-item">
+					          <a class="nav-link active text-outline-primary mx- 4 " href="#Blog"><strong>eCommerce</strong></a>
+					        </li>
+
+					          </div>
+  </div>
+</nav>
+<div row>
+
+ 								<div class="row bg-light">
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+						<img src="services1.PNG" class="card-img" alt="...">
+					<div class="card-img-overlay">
+				<h5 class="card-title text-white text-bg-warning mt-5">QRYSTAL PAY</h5>
+			<p class="card-text text-bg-warning">Branding & Design/Web & Design Development</p>
+		</div>
+	</div>
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+							 	 <img src="crystal.JPEG" class="card-img" alt="...">
+							  		<div class="card-img-overlay">
+							   			 <h5 class="card-title text-bg-warning mt-5">HEALTH CHOICE MALL</h5>
+							    			<p class="card-text text-white text-bg-warning">Branding & Design/Web & Design Development</p>
+							    				</div>
+													</div>
+
+							<center>
+							<div class="card text-bg-light col-lg-8 col-md-4 col-12  mx-5">
+						<img src="crystal.JPEG"class="card-img" alt="...">
+					<div class="card-img-overlay">
+				 <h5 class="card-title text-white text-bg-warning">Reyyat Mobile App</h5>
+			<p class="card-text text-white text-bg-warning">Branding & Design/Web & Design Development</p>
+		 </div>
+	</div>
+</div>
+</center>
+
+<div row>
+
+ 								<div class="row bg-light">
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+						<img src="services1.PNG" class="card-img" alt="...">
+					<div class="card-img-overlay">
+				<h5 class="card-title text-white text-bg-warning mt-5 h3">9JA DELIVERY</h5>
+			<p class="card-text text-bg-warning">Branding & Design/Web & Design Development</p>
+		</div>
+	</div>
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+							 	 <img src="crystal.JPEG" class="card-img" alt="...">
+							  		<div class="card-img-overlay">
+							   			 <h5 class="card-title text-bg-warning mt-5 h3">DIABETES CONSULTANT</h5>
+							    			<p class="card-text text-white text-bg-warning">Web & Design Development</p>
+							    				</div>
+													</div>
+
+							<center>
+							<div class="card text-bg-light col-lg-8 col-md-4 col-12  mx-5">
+						<img src="crystal.JPEG"class="card-img" alt="...">
+					<div class="card-img-overlay">
+				 <h5 class="card-title text-white text-bg-warning h3">EVENT WORLD</h5>
+			<p class="card-text text-white text-bg-warning">Branding & Design/Web & Design Development</p>
+		 </div>
+	</div>
+</div>
+</center>
+<div row>
+
+ 								<div class="row bg-light">
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+						<img src="services1.PNG" class="card-img" alt="...">
+					<div class="card-img-overlay">
+				<h5 class="card-title text-white text-bg-warning mt-5 h3">GabbyDave</h5>
+			<p class="card-text text-bg-warning">Branding & Design/Web & Design Development</p>
+		</div>
+	</div>
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+							 	 <img src="crystal.JPEG" class="card-img" alt="...">
+							  		<div class="card-img-overlay">
+							   			 <h5 class="card-title text-bg-warning mt-5 h3">eCourse  Hub</h5>
+							    			<p class="card-text text-white text-bg-warning">Web & Design Development</p>
+							    				</div>
+													</div>
+
+							<center>
+							<div class="card text-bg-light col-lg-8 col-md-4 col-12  mx-5">
+						<img src="crystal.JPEG"class="card-img" alt="...">
+					<div class="card-img-overlay">
+				 <h5 class="card-title text-white text-bg-warning h3">FemaleTechpreneur</h5>
+			<p class="card-text text-white text-bg-warning">Branding & Design/Web & Design Development</p>
+		 </div>
+	</div>
+</div>
+</center>
+<div row>
+
+ 								<div class="row bg-light">
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+						<img src="services1.PNG" class="card-img" alt="...">
+					<div class="card-img-overlay">
+				<h5 class="card-title text-white text-bg-warning mt-5 h3">Magic Freshness</h5>
+			<p class="card-text text-bg-warning">Branding & Design</p>
+		</div>
+	</div>
+							<div class="card col-lg-5 col-md-6 mx-5 col-12 ">
+							 	 <img src="crystal.JPEG" class="card-img" alt="...">
+							  		<div class="card-img-overlay">
+							   			 <h5 class="card-title text-bg-warning mt-5 h3">Rayatt Discovery</h5>
+							    			<p class="card-text text-white text-bg-warning">Product Development</p>
+							    				</div>
+													</div>
+
+							<center>
+							<div class="card text-bg-light col-lg-8 col-md-4 col-12  mx-5">
+						<img src="crystal.JPEG"class="card-img" alt="...">
+					<div class="card-img-overlay">
+				 <h5 class="card-title text-white text-bg-warning h3">EventBree</h5>
+			<p class="card-text text-white text-bg-warning">Web & Design Development & Product Development</p>
+		 </div>
+	</div>
+</div>
+</center>
+
+<div class="row bg-light mx-3">
+		<p id="text-white">Testimonials</p>
+		<p class="talks h3 text-justify-center ">What our client says about us!</p>
+			<div class="card-body col-md-2 col-lg-3 col-12" class="carousel slide" data-bs-ride="carousel">
+  				<div class="carousel-inner">
+  					<div class="carousel-item active">
+  						<div class=" cardc1 card-text ">
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <!-- <p class="ps-2 text-secondary">5.0 Review(s)</p> -->
+                                 <p class="ps-2 text-secondary"> Adejoke Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                               
+                                </div>
+                            </div>
+                            
+                              
+			    				<div class="carousel-item col-md-2 col-lg-3 col-12">
+			    					<div class=" cardc2 card-text ">
+			                            <span><i class='bx bxs-star text-warning'></i></span>
+		                                <span><i class='bx bxs-star text-warning'></i></span>
+		                                <span><i class='bx bxs-star text-warning'></i></span>
+		                                <span><i class='bx bxs-star text-warning'></i></span>
+		                                <span><i class='bx bxs-star text-warning'></i></span>
+		                                <!-- <p class="ps-2 text-secondary">5.0 Review(s)</p> -->
+		                                <p class="ps-2 text-secondary"> akinyemi Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod
+		                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		                               
+		                                </div>
+		    									 </div>
+    <div class="carousel-item col-md-2 col-lg-3 col-12">
+      	<div class=" cardc3 card-text">
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <!-- <p class="ps-2 text-secondary">5.0 Review(s)</p> -->
+                                 <p class="ps-2 text-secondary"> hannah Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                               
+                                </div>
+    
+    </div>
+    <div class="carousel-item col-md-2 col-lg-3 col-12 ">
+     	<div class=" cardc4 card-text">
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <span><i class='bx bxs-star text-warning'></i></span>
+                                <!-- <p class="ps-2 text-secondary">5.0 Review(s)</p> -->
+                                 <p class="ps-2 text-secondary"> Aanuoluwapo Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                               
+        </div>
+    
+    </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    	<span class="carousel-control-prev-icon" aria-hidden="false"></span>
+    		<span class="visually-hidden">Previous</span>
+  </button>
+  			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+   				 <span class="carousel-control-next-icon" aria-hidden="false"></span>
+   					 <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+<section id="partner" class="py-4 bg-brands bg-light">
+	<p class="h5 our-partner text-justify-center text-danger">Our Partners</p>
+<p  class="h5 partner text-justify-center text-danger">We partner with the biggest brands in digital to create powerful products and experiences
+</p>
+            <div class="container">
+                <div class="image-section">
+                    <div class="imagess">
+                        <div class="image-wrap">
+                            <div class="swiper-slide justify-content-between align-items-center">
+                                <img src="bree.PNG" class="img-fluid" style="width: 35%;" alt="">
+                                <img src="breev.PNG" class="img-fluid" style="width: 35%;" alt="">
+                                <img src="logo-1.PNG" class="img-fluid" style="width: 30%;" alt="">
+                                <img src="google.PNG" class="img-fluid" style="width: 25%;" alt="">
+                                <!-- <img src="gggg.PNG" class="img-fluid" style="width: 15%;" alt=""> -->
+                                <img src="female-techpreneur.PNG" class="img-fluid" style="width: 20%;" alt="">
+                                <img src="youspecial.PNG" class="img-fluid" style="width: 35%;" alt="">
+                                <img src="mailchimp.PNG" class="img-fluid" style="width: 35%;" alt="">
+                              
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section><br>
+
+	<div class="row img-contain ">
+		<div class="   img-fluid col-12 col-lg-6 col-md-2 "></div>
+			<div class="col-md-2 col-12 col-lg-4 cardd mx-2 mt-5">
+				<div class="card-bodyyy">
+					<p class="card-titles h1">We can help your company reach your target customer</p>
+						<input type="radio" id="ignite" name="ignite"><left></a>Unique experience</left><br>
+							<input type="radio" id="team" name="lift Off"><left> Project Team</left><br>
+								<input type="radio" id="communication" name="boost"><left> Easy communication</left><br>
+									<input type="button" value="Login" class="form-control text-center btn btn-warning my-3" placeholder="Login">
+
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="row">		
+
+	<div class="col-md-4 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="cryst.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Email Marketing<hr></p>
+				<p class="card-text h6">We can take a start-up business with nothing to a fully functioning brand online and offline, or we can revamp an existing brand, or take a successful brand to the next level, whether that be a log design, full brand-guidlines, artwork fcreating for advertising and digital marketing, or packaging design- we can do it. our creative services will replicate and strenghtened your company values<hr></p>
+		</div>
+	</div>
+
+	<div class="col-md-4 col-12 col-lg-3 mx-5 card  mt-5 ">
+				<img src="crystal-DM.JPEG" class="card-img img-fluid" style="width: 400px; height: 250px" alt="...">
+					<div class="card-body">
+						<p class="card-title h2">Sales funnel<hr></p>
+							<p class="card-text h6">We offer business analysis and strategy training for individuals and cooprate organizations. we also offer their analysis skills to support your project, by helping organization to identify their strenghts and weaknessess, we help you decide where your efforts and resources are best spent...<hr></p>
+					</div>
+	</div>
+<div class="col-md-4 col-12 col-lg-3 mx-5 card mt-5 ">
+				<img src="hh.PNG" class="card-img img-fluid" style="width: 400px; height: 250px"alt="...">
+		<div class="card-body">
+				<p class="card-title h2">Consultancy<hr></p>
+				<p class="card-text h6">An onlinestore with all the tools you need to build, manage, and grow your business. Receive payments online, automatic inventory management & more . instagram support, international payments.<hr></p>
+		</div>
+	</div>
+
+</div>
+
+	
+	 <center><h2 class="subscribe pt-5 pb-5">Subscribe to Our Newsletter </h2></center>
+
+<footer>
+	<center><div class="heading bg-warning col-md-4 col-12 col-lg-9 d-flex mx-5">
+		<div class="input col-md-4 col-12 col-lg-9 mx-5"><p class="h4">Join our news letter</p><input type="button" value=" your email Address" class="btn btn-outline-white rounded bg-white w-50" placeholder="enter your Email address">
+		<input type="button" value="Subscribe" class="btn btn-outline-secondary w-50 rounded" placeholder="Subscribe"></div>
+</div>
+</center>
+<div class="row foot">
+                            <div class="col-lg-3 col-md-6 mx-3 col-12">
+								<div class="card-body">
+										<p class="card-title text-white pb-5 pt-5">About Us</p>
+										<p class="about-us text-white">An onlinestore with all the tools you need to build, manage, and grow your business. Receive payments online, automatic inventory management & more . instagram support, international payments.</p>
+								<form class="d-flex" role="search">
+						        <button class="btn btn-outline-white bg-white" type="Read more">Read More</button>
+
+						      </form>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-12 mx-5 pt-5 ">
+								<a href="continent3.html" class="text-white" >Our Company</a><br>
+						        <a href="continent3.html" class="text-white" >About</a><br>
+						        <a href="continent3.html" class="text-white" >How we Work</a><br>
+						           
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 pt-5 mx-5">
+						        <a href="continent3.html" class="text-white" >Quick links</a><br>
+						        <a href="continent3.html" class="text-white" >Trainings</a><br>
+						        <a href="continent3.html" class="text-white" >Get in touch</a><br>
+						       
+                            
+</div>
+<div class="col-lg-12 col-md-6 col-12 pt-5 bg-black d-flex justify-content-between">
+                            
+                    		<p class="text-center text-white">Copyright © 2022 Crystal Option</p><br><br>
+                   			<h6 class="text-center text-white">  ||Designed by Aanuoluwapo Akinyemi ||</h6>
+                   			<img src="facebook.PNG" class="img-fluid" style="width: 4%;" alt="">
+                                <img src="linkedin.PNG" class="img-fluid" style="width: 4%;" alt="">
+                                <img src="google.PNG" class="img-fluid" style="width: 4%;" alt="">
+                                <img src="twitter.PNG" class="img-fluid" style="width: 4%;" alt="">
+						        <a href="continent3.html" class="text-white" >Trainings</a><br>
+						        <a href="continent3.html" class="text-white d-flex" >Start a project</a><br>
+                			</div>
+</div>
+
+</footer>
+               
+</body>
+</html>
